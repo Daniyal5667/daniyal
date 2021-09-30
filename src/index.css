@@ -1,0 +1,94 @@
+input[type=text], select {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+input[type=submit] {
+  width: 100%;
+  background-color: #4CAF50;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  
+}
+
+input[type=submit]:hover {
+  background-color: #45a049;
+}
+
+.mainf {
+  border-radius: 5px;
+  background-color: #f2f2f2;
+  width: 50%;
+  padding:20px;
+  margin-top: 80px;
+  margin-left: 320px;
+  margin-right: 120px;
+  border-radius: 10px;
+}
+
+.headerf {
+  font-size: 22px;
+  text-align: center;
+  margin-bottom: -51px;
+  
+}
+
+/* 
+.ul {
+  list-style-type: none;
+  margin: 30px;
+  padding: 0;
+  text-align: center;
+  
+  width: 100%;
+  
+}
+
+.li,link{
+  display: flex;
+  padding-left: 7px;
+  list-style-type: none;
+  
+  
+}
+.link{
+  padding-left: 10px;
+  text-decoration: none;
+  font-size: 25px;
+  background-color: antiquewhite
+} */
+
+table {
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+td, th {
+  border: 1px solid #dddddd;
+  text-align: left;
+  padding: 8px;
+}
+
+tr:nth-child(even) {
+  background-color: #dddddd;
+}
+
+#components-layout-demo-side .logo {
+  height: 32px;
+  margin: 16px;
+  background: rgba(255, 255, 255, 0.3);
+}
+
+.site-layout .site-layout-background {
+  background: #fff;
+}
